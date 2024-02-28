@@ -1,0 +1,22 @@
+.mainSection {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: center;
+}
+
+.awardImage {
+  max-height: 100vh;
+}
+@media screen and (max-width: 600px) {
+  .mainSection {
+    grid-template-columns: 100%; /* Full width for mobile */
+  }
+  .awardImage {
+    max-height: 50vh;
+  }
+}

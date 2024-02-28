@@ -1,0 +1,16 @@
+.logoContainer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .logoContainer {
+    height: 10vh;
+    margin: 0 0 2rem 0;
+  }
+}

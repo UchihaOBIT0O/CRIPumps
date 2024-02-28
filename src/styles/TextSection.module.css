@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.contentSection {
+  height: 100%;
+  font-family: "Roboto Slab";
+  width: 100%;
+  margin: 3% 0 0 0;
+}
+
+.listSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  list-style-type: disc;
+}
+
+.list > li {
+  margin: 1rem 0 0 2.9rem;
+}
+
+.heading {
+  font-weight: bolder;
+  font-weight: 700;
+}
+
+.awardImage {
+  width: 95%;
+  margin: 1.2rem 0 0 0;
+}
+.lastTextSection {
+  width: 98%;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 1rem;
+    margin-left: 1.4rem;
+  }
+  .list > li {
+    font-size: 0.9rem;
+  }
+  .awardImage {
+    margin-left: 0.4rem;
+  }
+  .lastTextSection {
+    font-size: 0.9rem;
+    margin: 0 0 0 0.6rem;
+  }
+}

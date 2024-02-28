@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+.secondOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondThree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondSection {
+  font-family: "Roboto Slab";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0 0 0;
+  padding: 0 0 1.5rem 0;
+  border-bottom: 3px solid red;
+}
+
+.motorImage {
+  max-width: 70%;
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+.footerSection {
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textSecond {
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 2rem 0;
+}
+
+.textThird {
+  width: 90%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3%;
+  justify-content: center;
+}
+
+.element {
+  border-right: 2px solid red;
+  padding: 0 0.2rem 0 0;
+  font-weight: 500;
+}
+
+.footerSecond {
+  height: 15vh;
+  margin: 2rem 0 0.7rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  color: white;
+  width: 98%;
+}
+
+.footerSecond > span > img {
+  height: 2rem;
+}
+
+.footerSecond > span > a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  .secondOne {
+    margin: 55% 0 0 0;
+  }
+  .secondSection {
+    font-size: 0.9rem;
+    margin: 0 0 0 1rem;
+  }
+  .motorImage {
+    max-width: 80%;
+    margin: 1rem 1.5rem 1rem 0;
+  }
+  .footerSection {
+    font-size: 0.8rem;
+  }
+  .footerSecond {
+    width: 100vw;
+    height: 20vh;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .footerSecond > span {
+    margin: 1rem 0 0 0;
+  }
+  .footerSecond > span > img {
+    height: 1.5rem;
+  }
+}
