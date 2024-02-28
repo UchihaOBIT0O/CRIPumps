@@ -6,7 +6,7 @@ export default function MainSection() {
       <div className={styles.imageSection}>
         <img
           className={styles.awardImage}
-          src="\src\assets\1.png"
+          src="public\assets\1.png"
           alt="awardImage"
         />
       </div>

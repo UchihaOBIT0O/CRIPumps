@@ -31,7 +31,7 @@ export default function SectionSecond() {
           </p>
           <img
             className={styles.motorImage}
-            src="\src\assets\3.png"
+            src="public\assets\3.png"
             alt="motors"
           />
           <p className={styles.bottomText}>
@@ -55,15 +55,15 @@ export default function SectionSecond() {
       <div className={styles.secondThree}>
         <div className={styles.footerSecond}>
           <span>
-            <img src="\src\assets\phone.svg" alt="phone" />
+            <img src="public\assets\phone.svg" alt="phone" />
             Tollfree 1800 200 1234
           </span>
           <span>
-            <img src="\src\assets\facebook.svg" alt="facebook" />
+            <img src="public\assets\facebook.svg" alt="facebook" />
             <a href="www.facebook.com/cripumps">www.facebook.com/cripumps</a>
           </span>
           <span>
-            <img src="\src\assets\web.svg" alt="web" />
+            <img src="public\assets\web.svg" alt="web" />
             <a href="www.crigroups.com">www.crigroups.com</a>
           </span>
         </div>

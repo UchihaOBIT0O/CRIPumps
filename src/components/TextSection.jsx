@@ -25,7 +25,7 @@ export default function TextSection() {
       <div className={styles.imageSection}>
         <img
           className={styles.awardImage}
-          src="\src\assets\2.png"
+          src="public\assets\2.png"
           alt="award presenting"
         />
       </div>
